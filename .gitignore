@@ -1,0 +1,41 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.cache/
+.temp/
+.env
+.env.*.local
+.vscode/
+.idea/
+*.local
+.DS_Store
+*.log
+coverage/
+*.tgz
+*.lock-wscript
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+lerna-debug.log
+output/
+logs/
+
+# OS
+Thumbs.db
+*.swp
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional: Ignore test coverage output
+.nyc_output/
+coverage/
+
+# Cloudflare Workers
+wrangler.toml
+.workers-kv/
